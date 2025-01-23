@@ -8,8 +8,8 @@ export default function ProductBox() {
         رستوران مکدوناد شعبه تهران
       </h1>
       <div className="grid grid-cols-2 gap-5">
-        {productsData.map((product, product.id) => (
-          <CartItem product={product} key={product.id} />
+        {productsData.map((product, index) => (
+          <CartItem product={product} key={index} />
         ))}
       </div>
     </div>

@@ -1,6 +1,6 @@
 import "./cartItem.css";
 
-export default function CartItem({ product, id }) {
+export default function CartItem({ product, index }) {
   let totalPrice = 0;
 
   return (
