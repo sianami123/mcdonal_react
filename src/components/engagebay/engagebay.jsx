@@ -15,15 +15,15 @@ export default function Engagebay() {
           One platform for all your Marketing, Sales, and Support teams
         </p>
 
-        <form className="flex max-w-lg mx-auto gap-4">
+        <form className="flex max-w-lg mx-auto gap-4 border border-secondary rounded-full p-1">
           <input
             type="email"
             placeholder="Your email address"
-            className="flex-1 px-6 py-3 rounded-full border border-gray-200 focus:outline-none focus:border-primary"
+            className="flex-1 px-6 py-3 rounded-full "
           />
           <button
             type="submit"
-            className="px-6 py-3 rounded-full bg-secondary text-white hover:bg-opacity-90"
+            className="px-6 py-3 rounded-full bg-secondary text-white"
           >
             Get Started
           </button>
