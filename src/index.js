@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import HomePage from "./pages/home/homePage";
+import Engagebay from "./pages/engagebay/engagebay";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <HomePage />
+    <Engagebay />
+    {/* <HomePage /> */}
   </React.StrictMode>
 );
