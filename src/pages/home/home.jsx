@@ -13,6 +13,9 @@ export default function Home() {
       <a href="/counter" className="text-2xl p-4 hover:text-blue-500">
         counter
       </a>
+      <a href="/about" className="text-2xl p-4 hover:text-blue-500">
+        about
+      </a>
     </div>
   );
 }
