@@ -5,6 +5,7 @@ import Calculator from "./pages/calculator/calculator";
 import Engagebay from "./pages/engagebay/engagebay";
 import Mcdonald from "./pages/mcdonald/mcdonald";
 import Home from "./pages/home/home";
+import Counter from "./pages/counter/counter";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ root.render(
         <Route path="/mcdonald" element={<Mcdonald />} />
         <Route path="/engagebay" element={<Engagebay />} />
         <Route path="/calculator" element={<Calculator />} />
+        <Route path="/counter" element={<Counter />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

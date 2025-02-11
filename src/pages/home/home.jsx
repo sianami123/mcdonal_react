@@ -10,6 +10,9 @@ export default function Home() {
       <a href="/engagebay" className="text-2xl p-4 hover:text-blue-500">
         engagebay
       </a>
+      <a href="/counter" className="text-2xl p-4 hover:text-blue-500">
+        counter
+      </a>
     </div>
   );
 }
